@@ -15,8 +15,8 @@ module.exports = {
      extensions: ['.js', '.ts', '.tsx'],
    },
   output: {
-    path: path.resolve(__dirname, 'markdown-editor2/dist'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
-    publicPath: 'markdown-editor2/dist/',
+    publicPath: 'dist/',
   }
 }
