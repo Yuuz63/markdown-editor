@@ -55,12 +55,14 @@ export const Editor: React.FC = () => {
         Markdown Editor
       </Header>
       <Wrapper>
-      <TextArea
-       onChange={(event) => {
-          const changedText = event.target.value
-          localStorage.setItem(StorageKey, changedText)
-          setText(changedText)
-       }}
+        <TextArea
+            onChange={(event) => {
+            const changedText = event.target.value
+            localStorage.setItem(StorageKey, changedText)
+            setText(changedText)
+        }}
+        value={text}
+        />
         <Preview>プレビューエリア</Preview>
       </Wrapper>
     </>
