@@ -57,9 +57,9 @@ export const Editor: React.FC = () => {
       <Wrapper>
       <TextArea
        onChange={(event) => {
-        const changeText = event.target.value
-        localStorage.setItem(StorageKey, changedText)
-        setText(changedText)
+          const changedText = event.target.value
+          localStorage.setItem(StorageKey, changedText)
+          setText(changedText)
        }}
         <Preview>プレビューエリア</Preview>
       </Wrapper>
