@@ -15,7 +15,7 @@ const StyledButton = styled.button`
     background: white;
     border: 1px solid gray;
     color: gray;
-    }
+  }
 `
 
 interface Props {

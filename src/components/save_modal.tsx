@@ -66,4 +66,3 @@ export const SaveModal: React.FC<Props> = props => {
     </Wrapper>
   )
 }
-
